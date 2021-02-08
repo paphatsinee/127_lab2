@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int A,B,C;
-    char a,b,c;
-    scanf("%d %d %d",&A,&B,&C);
-    scanf("%c%c%c",&a,&b,&c);
-    if(0<A<=100 && 0<B<=100 && 0<C<=100)
+    int a,b,c,i,sort;
+    char d[5];
+    int e[5];
+    scanf("%d %d %d" ,&a,&b,&c);
+    if(a>b)
     {
-        a=A;
-        b=B;
-        c=C;
-        printf("%d %d %d");
+        sort=a;
+        a=b;
+        b=sort;
     }
+    return 0;
 }
