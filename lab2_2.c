@@ -2,8 +2,8 @@
 int main()
 {
     char pro;
-    float T,M,N,n;
-    int t,k=0;
+    float T,M,N,n,k;
+    int t;
     scanf("%c",&pro);
     scanf("%f",&T);
     if(pro=='A')
