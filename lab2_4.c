@@ -17,12 +17,31 @@ int main()
        }
        else if(n>=74&&n<=82)
        {
-           printf("(o)");
+           printf("(*o*)");
        }
        else if(n>=83&&n<=90)
        {
-           printf("(TT)");
+           printf("(T_T)");
        }
+    }
+    else if(d%2==0)
+    {
+        if(n>=65&&n<=73)
+        {
+            printf("{@_@}");
+        }
+        else if(n>=74&&n<=82)
+        {
+            printf("{*v*}");
+        }
+        else if(n>=83&&n<=90)
+        {
+            printf("{x_x}");
+        }
+    }
+    if(d%10==5)
+    {
+        printf("/");
     }
 
     return 0;
