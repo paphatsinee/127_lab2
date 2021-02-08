@@ -8,4 +8,8 @@ int main()
     scanf("%d",&b);
     printf("Enter c:");
     scanf("%d",&c);
+    if(0<=a<=30 && 0<=b<=30 && 0<=c<=40)
+    {
+
+    }
 }
