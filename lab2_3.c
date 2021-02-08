@@ -1,10 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,i,count;
-    char a1[5];
-    int b1[5];
-    scanf("%d %d %d" ,&a,&b,&c);
-
-    return 0;
+    int A,B,C;
+    char a,b,c;
+    scanf("%d %d %d",&A,&B,&C);
+    scanf("%c%c%c",&a,&b,&c);
+    if(0<A<=100 && 0<B<=100 && 0<C<=100)
+    {
+        a=A;
+        b=B;
+        c=C;
+        printf("%d %d %d");
+    }
 }
